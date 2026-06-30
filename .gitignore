@@ -1,0 +1,22 @@
+# Next.js build and dependency directories
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env*.local
+
+# Maven build directory
+backend/target/
+backend/*.db
+backend/*.log
+
+# IDE & system configs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
