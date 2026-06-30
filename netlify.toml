@@ -3,7 +3,7 @@
 [build]
   base = "frontend"
   command = "npm run build"
-  publish = ".next"
+  publish = "out"
 
 # Redirect rules to let Next.js handle all client-side routes (fixes 404 page not found on reload)
 [[redirects]]

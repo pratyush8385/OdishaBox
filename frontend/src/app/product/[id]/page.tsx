@@ -318,3 +318,9 @@ export default function ProductDetail() {
     </div>
   );
 }
+
+export async function generateStaticParams() {
+  return Array.from({ length: 20 }, (_, i) => ({
+    id: (i + 1).toString(),
+  }));
+}
