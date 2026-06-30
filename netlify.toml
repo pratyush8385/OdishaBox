@@ -1,0 +1,12 @@
+# Netlify Configuration for OdishaBox Monorepo
+
+[build]
+  base = "frontend"
+  command = "npm run build"
+  publish = ".next"
+
+# Redirect rules to let Next.js handle all client-side routes (fixes 404 page not found on reload)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
