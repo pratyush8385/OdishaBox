@@ -38,7 +38,7 @@ public class DataInitializer implements CommandLineRunner {
                     "admin@odishabox.com",
                     passwordEncoder.encode("admin123"),
                     "OdishaBox Admin",
-                    "+919876543210",
+                    "+917008512081",
                     Role.ROLE_ADMIN
             );
             userRepository.save(admin);
