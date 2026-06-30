@@ -176,10 +176,12 @@ export default function Home() {
             {categories.map((cat) => {
               // Custom illustrations for categories
               let catImg = "https://images.unsplash.com/photo-1544025162-d76694265947?w=300&auto=format&fit=crop&q=80";
-              if (cat.slug.includes("sweets")) {
+              if (cat.slug.includes("sweets") || cat.slug.includes("pitha")) {
                 catImg = "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=300&auto=format&fit=crop&q=80";
               } else if (cat.slug.includes("grocery")) {
                 catImg = "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=300&auto=format&fit=crop&q=80";
+              } else if (cat.slug.includes("spices")) {
+                catImg = "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=300&auto=format&fit=crop&q=80";
               } else if (cat.slug.includes("pickles")) {
                 catImg = "https://images.unsplash.com/photo-1601050690597-df056fb4ce78?w=300&auto=format&fit=crop&q=80";
               } else if (cat.slug.includes("snacks")) {

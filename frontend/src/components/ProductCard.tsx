@@ -32,8 +32,8 @@ export const getProductImage = (name: string): string => {
   if (normalized.includes("khaja")) {
     return "https://images.unsplash.com/photo-1605698802059-17ce6829fe00?w=600&auto=format&fit=crop&q=80"; // Crispy Indian pastry
   }
-  if (normalized.includes("rasabali") || normalized.includes("gaja") || normalized.includes("jhili")) {
-    return "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&auto=format&fit=crop&q=80"; // Sweet cottage cheese
+  if (normalized.includes("rasabali") || normalized.includes("gaja") || normalized.includes("jhili") || normalized.includes("pitha")) {
+    return "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&auto=format&fit=crop&q=80"; // Sweet cottage cheese / dessert pancakes
   }
   if (normalized.includes("badi")) {
     return "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=600&auto=format&fit=crop&q=80"; // Lentil fritters / spice ingredients
@@ -44,14 +44,17 @@ export const getProductImage = (name: string): string => {
   if (normalized.includes("pickle")) {
     return "https://images.unsplash.com/photo-1601050690597-df056fb4ce78?w=600&auto=format&fit=crop&q=80"; // Indian Achar / Pickle
   }
-  if (normalized.includes("mixture") || normalized.includes("snacks") || normalized.includes("murki") || normalized.includes("muan")) {
-    return "https://images.unsplash.com/photo-1547058886-f33f9a5bef1a?w=600&auto=format&fit=crop&q=80"; // Namkeen / Crispy snacks
+  if (normalized.includes("mixture") || normalized.includes("snacks") || normalized.includes("murki") || normalized.includes("muan") || normalized.includes("chuda") || normalized.includes("mudi")) {
+    return "https://images.unsplash.com/photo-1547058886-f33f9a5bef1a?w=600&auto=format&fit=crop&q=80"; // Namkeen / Puffed & flattened rice / Crispy snacks
   }
   if (normalized.includes("mandia") || normalized.includes("ragi")) {
     return "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80"; // Millet flour
   }
   if (normalized.includes("oil")) {
     return "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&auto=format&fit=crop&q=80"; // Oil bottle
+  }
+  if (normalized.includes("masala") || normalized.includes("spices") || normalized.includes("spice")) {
+    return "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=600&auto=format&fit=crop&q=80"; // Authentic Spices
   }
   if (normalized.includes("box") || normalized.includes("combo")) {
     return "/hero-odishabox.jpg"; // Curated box gift
