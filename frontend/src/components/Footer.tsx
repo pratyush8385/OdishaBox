@@ -23,7 +23,7 @@ export default function Footer() {
         <div className="flex flex-col justify-center items-start md:items-end">
           <span className="text-xs text-gray-500 uppercase tracking-widest font-black mb-2">Need Quick Help?</span>
           <a
-            href="https://wa.me/919876543210?text=Hi%20OdishaBox!%20I%20have%20a%20query%20about%20my%20order."
+            href="https://wa.me/7008512081?text=Hi%20OdishaBox!%20I%20have%20a%20query%20about%20my%20order."
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm px-5 py-2.5 rounded-full shadow-md transition-colors"

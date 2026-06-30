@@ -20,3 +20,6 @@ backend/*.log
 *.sw?
 .DS_Store
 Thumbs.db
+
+# Exclude duplicate backup folder
+OdishaBox/
